@@ -1,5 +1,5 @@
 {
-  "name": "node-boilerplate",
+  "name": "zoho-app",
   "version": "0.0.1",
   "main": "src/index.js",
   "private": true,
@@ -54,7 +54,7 @@
     "node-cron": "^2.0.3",
     "pg": "8.0.2",
     "pg-hstore": "2.3.3",
-    "sequelize": "5.21.6",
+    "sequelize": "^5.22.3",
     "sequelize-cli": "^5.5.1",
     "uuidv4": "6.0.7",
     "workerpool": "^5.0.4"

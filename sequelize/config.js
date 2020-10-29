@@ -17,7 +17,7 @@ const defaultConfig = {
 module.exports.development = {
   ...defaultConfig,
   host: '127.0.0.1',
-  database: 'm2slocal',
+  database: 'zoholocal',
   username: 'admin',
   password: '123',
 };
@@ -25,7 +25,7 @@ module.exports.development = {
 module.exports.staging = {
   ...defaultConfig,
   host: '127.0.0.1',
-  database: 'm2sstage',
+  database: 'zohostage',
   username: 'admin',
   password: '123',
 };
@@ -33,7 +33,7 @@ module.exports.staging = {
 module.exports.test = {
   ...defaultConfig,
   host: '127.0.0.1',
-  database: 'm2stest',
+  database: 'zohotest',
   username: 'admin',
   password: '123',
 };
@@ -41,7 +41,7 @@ module.exports.test = {
 module.exports.production = {
   ...defaultConfig,
   host: '127.0.0.1',
-  database: 'm2sprod',
+  database: 'zohoprod',
   username: 'admin',
   password: '123',
 };
