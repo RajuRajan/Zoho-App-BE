@@ -1,4 +1,3 @@
-import compression from 'compression';
 import express from 'express';
 import helmet from 'helmet';
 import morgan from 'morgan';
@@ -26,7 +25,6 @@ app.use(express.json());
 app.use(express.static(PUBLIC_PATH));
 app.use(express.urlencoded({ extended: false }));
 app.use(morgan('dev'));
-app.use(compression());
 app.use(helmet());
 app.use('/api', router);
 app.use(errorHandler);
