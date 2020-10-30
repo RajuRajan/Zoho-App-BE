@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'zoho backend',
-      script: './src/server.js',
+      script: 'npm start',
 
       // Options reference: https://pm2.keymetrics.io/docs/usage/application-declaration/
       args: 'one two',
