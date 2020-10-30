@@ -24,7 +24,7 @@ module.exports = {
 
   deploy: {
     development: {
-      user: 'root',
+      user: 'ubuntu',
       host: '13.233.128.60',
       ref: 'origin/master',
       key: '/Users/rajarajanlearnyst/Downloads/zoho.pem',
