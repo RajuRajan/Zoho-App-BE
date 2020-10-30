@@ -41,7 +41,7 @@ module.exports = {
       ssh_options: ['StrictHostKeyChecking=no', 'PasswordAuthentication=no'],
       path: '/var/www/production',
       'post-deploy':
-        'sudo npm install && sequelize db:migrate --env production && sudo pm2 reload ecosystem.config.js --env production',
+        'sudo npm install && npm run db:migrate --env production && sudo pm2 reload ecosystem.config.js --env production',
     },
   },
 };
