@@ -28,8 +28,8 @@ module.exports = {
       host: '13.233.128.60',
       ref: 'origin/master',
       key: '/Users/rajarajanlearnyst/Downloads/zoho.pem',
-      repo: 'git@github.com:RajuRajan/Zoho-App-BE.git',
-      path: '/var/www/production',
+      repo: 'https://github.com/RajuRajan/Zoho-App-BE.git',
+      path: '/var/www/production/zoho-be',
       'post-deploy':
         'sudo npm install && npm run db:migrate --env production && sudo pm2 reload ecosystem.config.js --env production',
     },
@@ -39,7 +39,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:RajuRajan/Zoho-App-BE.git',
       ssh_options: ['StrictHostKeyChecking=no', 'PasswordAuthentication=no'],
-      path: '/var/www/production',
+      path: '/var/www/production/zoho-be',
       'post-deploy':
         'sudo npm install && npm run db:migrate --env production && sudo pm2 reload ecosystem.config.js --env production',
     },
